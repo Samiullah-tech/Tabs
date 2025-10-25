@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="tabs-container">
+    <div class="tab-list">
+        <p class="tab active" data-tab="tab1">First Tab</p>
+        <p class="tab" data-tab="tab2">Second Tab</p>
+        <p class="tab" data-tab="tab3">Third Tab</p>
+        <p class="tab" data-tab="tab4">Fourth Tab</p>
+    </div>
+
+    <p id="guide">Clicking each tab should hide the content of the other tab and show the content of clicked tab. By default, enable the first tab.</p>
+
+    <div class="tab-content active" id="tab1">
+        <p>First Tab content to be displayed here.</p>
+    </div>
+
+    <div class="tab-content" id="tab2">
+        <p>Second Tab content to be displayed here.</p>
+    </div>
+
+    <div class="tab-content" id="tab3">
+        <p>Third Tab content to be displayed here.</p>
+    </div>
+
+    <div class="tab-content" id="tab4">
+        <p>Fourth Tab content to be displayed here.</p>
+    </div>
+
+    <p id="hint">Add some dummy content or just add a simple text showing the tab</p>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
